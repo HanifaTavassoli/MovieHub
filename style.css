@@ -71,3 +71,29 @@ a {
 .hero .btn:hover {
   background: #e60000;
 }
+
+.now-showing {
+  padding: 2rem;
+  text-align: center;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.movie-card {
+  background: #1f1f1f;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1 1 calc(33.333% - 2rem);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px);
+}
