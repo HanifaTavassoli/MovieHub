@@ -44,3 +44,30 @@ a {
 .nav a:hover {
   color: var(--primary-color);
 }
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url("https://via.placeholder.com/1200x400") center/cover no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #e60000;
+}
