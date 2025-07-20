@@ -1,0 +1,13 @@
+/* CSS Variables */
+:root {
+  --primary-color: #ff2c2c;
+  --bg-color: #111;
+  --text-color: #fff;
+  --font-main: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
