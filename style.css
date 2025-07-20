@@ -97,7 +97,8 @@ a {
 .movie-card:hover {
   transform: translateY(-10px);
 }
-.movie-card {
+
+.movie-card img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
@@ -115,17 +116,20 @@ a {
   padding: 0.5rem 1rem;
   border-radius: 4px;
 }
+
 .about {
   padding: 2rem;
   background: #1a1a1a;
   text-align: center;
 }
+
 .footer {
   text-align: center;
   padding: 1rem;
   background: #000;
   font-size: 0.9rem;
 }
+
 /* Media Queries */
 @media (max-width: 768px) {
   .nav ul {
