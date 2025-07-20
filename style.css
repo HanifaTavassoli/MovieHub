@@ -97,3 +97,21 @@ a {
 .movie-card:hover {
   transform: translateY(-10px);
 }
+.movie-card {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.movie-card h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.movie-card .btn {
+  margin-top: 0.5rem;
+  display: inline-block;
+  background: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
